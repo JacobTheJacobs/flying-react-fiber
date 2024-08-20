@@ -1,38 +1,41 @@
-import { Logo } from './logo'
-import { Container, TopLeft, BottomLeft, BottomRight, Hamburger } from './styles'
+import {
+  Container,
+  TopLeft,
+  BottomLeft,
+  BottomRight,
+  StyledLink,
+  IconWrapper,
+  StyledInput,
+  StyledText,
+} from "./styles";
 
-export function Overlay() {
+
+export function Overlay({ speed, set }) {
   return (
     <Container>
       <TopLeft>
-        <h1>
-          Cannabis
-          <br />
-          PAGES —
-        </h1>
+        <StyledText>
+          Inspiration and ideas 
+        </StyledText>
       </TopLeft>
-      <BottomLeft>
-        A runtime deconstruction of <a href="https://playful.software">playful.software</a>
-      </BottomLeft>
+      <BottomLeft></BottomLeft>
       <BottomRight>
-        Inspiration and ideas
-        <br />
-        Fundamentals
-        <br />
-        Finding models
-        <br />
-        Preparing them for the web
-        <br />
-        Displaying and changing models
-        <br />
-        Animation fundamentals
-        <br />
-        Effects and making things look good
-        <br />
-        Performance and time to load
-        <br />
+        <IconWrapper>
+          <StyledInput
+            type="range"
+            min="0"
+            max="5"
+            value={speed}
+            step="1"
+            onChange={(e) => set(Number(e.target.value))}
+          />
+        </IconWrapper>
+        <br/>
+        <span style={{paddingRight:"80px"}}>
+
+        </span>
+        Made by <StyledLink href="https://example.com">Jake</StyledLink>
       </BottomRight>
-      <Logo/>
     </Container>
-  )
+  );
 }

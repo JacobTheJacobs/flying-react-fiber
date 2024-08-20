@@ -150,3 +150,37 @@ body {
 }
 
 
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f4c3; /* Light green background */
+}
+
+.loading-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.loading-bar-container {
+  width: 80%;
+  background-color: #e0e0e0; /* Light grey background for the bar */
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.loading-bar {
+  height: 30px;
+  background-color: #90ee90; /* Light green loading bar */
+  transition: width 0.2s;
+}
+
+.loading-data {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #333;
+}

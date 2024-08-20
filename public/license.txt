@@ -1,0 +1,11 @@
+Model Information:
+* title:	Virus 3D Model
+* source:	https://sketchfab.com/3d-models/virus-3d-model-d2e053f128ff4d89838518d6bd0d5a67
+* author:	osmanghani0062 (https://sketchfab.com/osmanghani0062)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Virus 3D Model" (https://sketchfab.com/3d-models/virus-3d-model-d2e053f128ff4d89838518d6bd0d5a67) by osmanghani0062 (https://sketchfab.com/osmanghani0062) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
