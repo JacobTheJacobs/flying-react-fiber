@@ -20,6 +20,7 @@ import { Overlay } from "./layout/overlay";
 import { Helmet } from "react-helmet";
 import { useTransition } from "./useTransition"; // Correctly importing your custom hook
 
+
 const Loadera = ({ setClicked }) => {
   const { active, progress } = useProgress();
   const style = useTransition(active, {
